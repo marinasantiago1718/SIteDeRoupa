@@ -5,31 +5,27 @@
     <title>Ativ03Web</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header{ background: #e12b9b; color: #fff;text-align: center;}
+        header{ background: #e12b9b; color: #fff;text-align: center; padding: 1em; }
         footer { background: #e12b9b; color: #fff; padding: 1em; text-align: center; }
-        main { padding: 2em;border:10px;  margin:10px; }
+        
         nav { background: #eee; padding: 1em; text-align: center; }
-        nav a { margin: 0 1em; color: #333; text-decoration: none; }
+        a { margin: 0 1em; color: #333; text-decoration: none;  display: inline;}
         
         
     </style>
+
 </head>
-
-
 
 <body>
 
     <header>
-
         <h1 position: static>Dress to Impress</h1>
-        
-
+    
     </header>
-    <div class = "banner">
-            <img src="pictures/banner.jpeg">
-    </div>
+    
 
     <nav >
         <a href="#inicio">Início</a>
@@ -37,25 +33,49 @@
         <a href="#contato">Contato</a>
     </nav>
 
+    <div class = "banner">
+            <img src="pictures/banner.jpeg" style="position: relative; width: 100%;">
+    </div>
 
     <main>
+
+        <div class="sidebar">
+            <p>Menu AAAAAAAAAAAAAAAAAa</p>
+        </div>
+            
+
+
+
+
+        <div class="coluna-direita">
+        
         <div class="symbol">
             <img src="pictures/sacola.jpeg" style="width: 70%;">
         </div>
-        <div id="inicio"; 
-        style="padding: 10px; border: 5px solid #f48dca; border-radius: 10px;";
+
+       
+        <div class="item", id="inicio";
+         
+        style="padding: 10px; border: 5px solid #f48dca; border-radius: 10px; ";
         position: static;>
             <h2>Início</h2>
-            <p>Dress to Imporess é uma marca de roupas e acessórios brasileira, autoral e orgânica que presa pela melhor qualidade de roupa de forma que não agrida do planeta.</p>
+            <p>Dress to Impress é uma marca de roupas e acessórios brasileira, autoral e orgânica que presa pela melhor qualidade de roupa de forma que não agrida do planeta.</p>
         </div>
- 
-        <div id="sobre"; style = "padding: 10px; border: 5px solid #f48dca; border-radius:10px;" >
+       
+        
+
+
+        <div class="item",id="sobre"; style = "padding: 10px; border: 5px solid #f48dca; border-radius:10px; " >
             <h2>Sobre</h2>
             <p>Fundada em 2020, a Dress to Impress tem como missão oferecer produtos sustentáveis e estilosos, promovendo a moda consciente.</p>
         </div>
-        
-        <div class = "galeria">
 
+
+        <hr>
+
+
+        <div class = "galeria">
+            <div class="item">
         
             <div class="produtos">            
                     <h4>Blusas</h4>                    
@@ -68,32 +88,32 @@
             <div class="produtos">
                     <h4>Casacos</h4>
             </div>
-
+        </div>
         </div>
 
         <hr>
 
             <div class="produto">
             <h4>Regata Melissa</h4>
-            <img src="pictures/blusa1.jpeg" style="width:200px;display:block; margin:auto;">
+            <img src="pictures/blusa1.jpeg" >
             <h4 > R$79,90.</h4>
             </div>
 
             <div class="produto">
                 <h4>Moletom Celina</h4>
-                <img src = "pictures/casaco1.jpeg" style="width:200px;display:block; margin:auto;">
+                <img src = "pictures/casaco1.jpeg" >
                 <h4> R$199,90.</h4>
                 </div>
             
             <div class="produto">
                 <h4>Vestido Cintia</h4>
-                <img src = "pictures/vestido1.jpeg" style="width:200px;display:block; margin:auto;">
+                <img src = "pictures/vestido1.jpeg">
                 <h4> R$149,90.</h4>
                 </div>
             
             <div class="produto">
                 <h4>Blusa Megan</h4>
-                <img src = "pictures/blusa2.jpeg" style="width:200px;display:block; margin:auto;">
+                <img src = "pictures/blusa2.jpeg"   >
                 <h4> R$179,90.</h4>
                 </div>
 
@@ -114,14 +134,16 @@
             </aside>
 
             <div id="contato"; 
-        style = "margin: 10px; padding: 10px; border-left:5px solid #f48dca;border-right:5px solid #f48dca; border-radius:10px;"
-        position: relative;
+                style = "margin: 10px; padding: 10px; border-left:5px solid #f48dca;border-right:5px solid #f48dca; border-radius:10px;"
+                position: relative;
         left:30px>
             <h2>Contato</h2>
             <p>Para mais informações, entre em contato pelo email: DTIcompany@dresstoimpress.com
             </p>  
            </div> 
-           
+          </div> 
+
+        
     </main>
 
     <footer>

@@ -53,7 +53,7 @@ h4{
 
 .banner{
     width: 100%;
-    position: relative;
+
     text-align: center;
 }
 
@@ -68,8 +68,49 @@ h4{
 
 nav{
     position:sticky;
-    top:20px;
+    top:5px;
     margin:0px;
     padding: 0px;
     
 }
+
+img{
+    width:200px;
+    display:block;
+    margin:0 auto;
+}
+
+main{
+    display: grid;    
+    grid-template-columns: 250px 1fr;
+    gap: 20px;            
+    padding: 20px;
+   
+}
+
+.sidebar {
+       
+      background: #eee;
+      padding: 20px;
+      border-right: 2px solid #ccc;
+     
+}
+
+.coluna-direita {
+        
+    flex-direction: column;
+      flex-wrap: wrap;
+      background: #eee;
+      padding: 20px;
+      gap: 20px;
+      
+}
+
+.item {
+      background: white;
+      padding: 20px;
+      flex: 1 1 200px; 
+      border: 1px solid #bbb;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
