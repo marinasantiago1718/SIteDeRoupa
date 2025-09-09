@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header, footer { background: #e12b9b; color: #fff; padding: 1em; text-align: center; }
+        header{ background: #e12b9b; color: #fff;text-align: center;}
+        footer { background: #e12b9b; color: #fff; padding: 1em; text-align: center; }
         main { padding: 2em;border:10px;  margin:10px; }
         nav { background: #eee; padding: 1em; text-align: center; }
         nav a { margin: 0 1em; color: #333; text-decoration: none; }
-
+        
         
     </style>
 </head>
@@ -22,32 +23,110 @@
 
     <header>
 
-        <h1>Dress to Impress</h1>
+        <h1 position: static>Dress to Impress</h1>
+        
 
     </header>
-    <nav>
+    <div class = "banner">
+            <img src="pictures/banner.jpeg">
+    </div>
+
+    <nav >
         <a href="#inicio">Início</a>
         <a href="#sobre">Sobre</a>
         <a href="#contato">Contato</a>
     </nav>
+
+
     <main>
-        <div id="inicio">
+        <div class="symbol">
+            <img src="pictures/sacola.jpeg" style="width: 70%;">
+        </div>
+        <div id="inicio"; 
+        style="padding: 10px; border: 5px solid #f48dca; border-radius: 10px;";
+        position: static;>
             <h2>Início</h2>
             <p>Dress to Imporess é uma marca de roupas e acessórios brasileira, autoral e orgânica que presa pela melhor qualidade de roupa de forma que não agrida do planeta.</p>
         </div>
-        <hr>
-        <div id="sobre"; margin:2px>
+ 
+        <div id="sobre"; style = "padding: 10px; border: 5px solid #f48dca; border-radius:10px;" >
             <h2>Sobre</h2>
             <p>Fundada em 2020, a Dress to Impress tem como missão oferecer produtos sustentáveis e estilosos, promovendo a moda consciente.</p>
         </div>
+        
+        <div class = "galeria">
+
+        
+            <div class="produtos">            
+                    <h4>Blusas</h4>                    
+            </div>
+
+            <div class="produtos">
+                    <h4>Vestidos</h4>
+            </div>
+
+            <div class="produtos">
+                    <h4>Casacos</h4>
+            </div>
+
+        </div>
+
         <hr>
-        <div id="contato">
-            <h2>Contato</h2>
-            <div>Para mais informações, entre em contato pelo email: DTIcompany@dresstoimpress.com
-            </div>        
+
+            <div class="produto">
+            <h4>Regata Melissa</h4>
+            <img src="pictures/blusa1.jpeg" style="width:200px;display:block; margin:auto;">
+            <h4 > R$79,90.</h4>
+            </div>
+
+            <div class="produto">
+                <h4>Moletom Celina</h4>
+                <img src = "pictures/casaco1.jpeg" style="width:200px;display:block; margin:auto;">
+                <h4> R$199,90.</h4>
+                </div>
             
+            <div class="produto">
+                <h4>Vestido Cintia</h4>
+                <img src = "pictures/vestido1.jpeg" style="width:200px;display:block; margin:auto;">
+                <h4> R$149,90.</h4>
+                </div>
+            
+            <div class="produto">
+                <h4>Blusa Megan</h4>
+                <img src = "pictures/blusa2.jpeg" style="width:200px;display:block; margin:auto;">
+                <h4> R$179,90.</h4>
+                </div>
+
+           
+        
+        
+            
+            <aside class="barraLateral">
+                <h3>
+                    Redes Sociais: 
+                    <ul>
+                        <li><a href="https://www.instagram.com/dresstoimpress/">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/dresstoimpress">Facebook</a></li>
+                        <li><a href="https://twitter.com/dresstoimpress">Twitter</a></li>
+                    </ul>
+                </h3>   
+
+            </aside>
+
+            <div id="contato"; 
+        style = "margin: 10px; padding: 10px; border-left:5px solid #f48dca;border-right:5px solid #f48dca; border-radius:10px;"
+        position: relative;
+        left:30px>
+            <h2>Contato</h2>
+            <p>Para mais informações, entre em contato pelo email: DTIcompany@dresstoimpress.com
+            </p>  
+           </div> 
+           
     </main>
+
     <footer>
+
+        
         &copy; 2024 Dress to Impress
     </footer>
 </body>
