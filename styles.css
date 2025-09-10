@@ -8,25 +8,46 @@ h2{
     color: #f48dca;
 }
 
-hr{
-    background-color: crimson;
-}
 
 .produto{
     display: block;
     width: 50%;
-    
     box-sizing: border-box;
     border: 3px solid #f48dcba9;
     margin: 0 auto;
+    margin-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
-   
+    transform: transform 0.3s;
+}
+
+.produto:hover{
+    border-color: crimson;
+    transform: scale(1.02);
 }
 
 .galeria{
     text-align: center;
     font-size: 0ss;
+}
+
+.galeriaFlex{
+    display: flex;
+    gap:20px;
+    justify-content: space-around;
+}
+
+.colunaFlex{
+    
+    flex-direction: column;
+    gap:20px;
+    justify-content: space-around;
+}
+
+.linhaFlex{
+    flex-direction: row;
+    gap:20px;
+    justify-content: space-around;
 }
 
 .produtos{
@@ -40,6 +61,7 @@ hr{
     margin: 10px;
     transform: transform 0.3s;
 }
+
 .produtos:hover{
     transform: scale(1.05);
     border-color: crimson;
@@ -58,12 +80,17 @@ h4{
 }
 
 .symbol{
-    width: 10%;
+    width: 8%;
     height: 10px;
     position:fixed;
     right: 0;
+    top:80%;
+    transform: tranform 0.3s;
    
     
+}
+.symbol:hover{
+    transform: scale(1.1);
 }
 
 nav{
@@ -96,9 +123,30 @@ main{
      
 }
 
+.selecionarProduto{
+    border: 5px solid #eee;
+    border-radius: 5px;
+    background-color: #fbaedc;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 1px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 8px;
+    font-family: Tahoma;
+    transform: transform 0.3s;
+
+}
+
+.selecionarProduto:hover{
+    border-color: rgb(235, 135, 155);
+    transform: scale(1.02);
+}
+
 .coluna-direita {
         
-    flex-direction: column;
+      flex-direction: column;
       flex-wrap: wrap;
       background: #eee;
       padding: 20px;
@@ -113,4 +161,6 @@ main{
       border: 1px solid #bbb;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      flex:1;
+      text-align: center;
     }
